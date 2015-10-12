@@ -27,10 +27,10 @@ public class RibbitApplication extends Application {
 
     // Add your initialization code here
     Parse.initialize(this, "VS45bzUkV7gE9aY9RMewdlRnK8ec3HCZHhPTWBfJ", "HizqyPnuFh9nCwzYv6TwJ6nMznguIXfYWmo51REU");
-
-    ParseObject testObject = new ParseObject("TestObject");
-    testObject.put("foo", "bar");
-    testObject.saveInBackground();
+    //test
+    //    ParseObject testObject = new ParseObject("TestObject");
+    //    testObject.put("foo", "bar");
+    //    testObject.saveInBackground();
 
     ParseUser.enableAutomaticUser();
     ParseACL defaultACL = new ParseACL();
